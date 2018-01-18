@@ -1,0 +1,222 @@
+body{
+  background:url(images/web.png) repeat;
+}
+#container
+{   margin-top: -50px;
+    width:85%;
+    height: 500px;
+    margin:0px 7% 0px 7%;
+}
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:4px;
+	}
+
+ul#saturday{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	background:transparent url(images/bgOFF.gif) repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:2px solid #336666;
+	border-top:1px solid #C0E2D4;
+	}
+
+ul#saturday li{
+	display:block;
+	float:left;
+	margin:0;
+	pading:0;
+	}
+
+ul#saturday li a{
+	display:block;
+	float:left;
+	color:#336666;
+	text-decoration:none;
+	padding:12px 20px 0 20px;
+	height:24px;
+	background:transparent url(images/bgDIVIDER.gif) no-repeat top right;
+	}
+
+ul#saturday li a:hover{
+	background:transparent url(images/bgHOVER.gif) no-repeat top right;
+	}
+
+ul#saturday li a.current,ul#saturday li a.current:hover{
+	color:#fff;
+	background:transparent url(images/bgON.gif) no-repeat top right;
+	}
+.header
+{   background-image: url("images/dan.jpg");background-repeat: repeat-x;
+    background-color: white;
+    height:8.5em;
+    margin-top:-29px;
+    margin-bottom:-1.2em;
+}
+.inputa{height: 29px; border-width: thin; border-color: black;} 
+.headtext
+{
+    padding:10px 0 0 0;
+    font-size:195%;
+    color:#336666;
+    line-height:1.5em;
+    letter-spacing:1px;
+    font-weight:bolder;
+    font-family:elephant;
+ }
+ .menubar
+{       
+     background-color: white;
+     height:2.1em;
+}
+#fm{ margin-left: 0px; margin-right: 0px;
+ border-left-style: inset; 
+ border-right-style: inset; 
+ border-left-color: blue; 
+ border-right-color: blue; 
+ border-left-width: thin;
+ border-right-width: thin;}
+#bagt{background-image: url("images/hshs.jpg"); background-repeat: repeat-x;}
+#veiw{
+    font-size: 13px; 
+ }
+#veiw tr:hover{ background-color: #FFFFC0;}
+.message
+  {   
+      width:84%;
+      margin:1px 7% 1px 7%;
+      background-image: url("images/ho1.jpg");
+      color:#FF0000;
+      font-size:1.2em;
+      padding:2px 5px 2px 5px;
+  }
+  #sas{text-decoration: none;}
+#page
+{    
+    background: url("images/page.gif") repeat;  
+}
+#page1
+{   height: 420px; 
+    background: url("images/page.gif") repeat;  
+}
+ #footer
+  {
+      background:url(images/as.gif) repeat-x;
+      height:2em;
+      color:#000080;
+      text-align:center;
+      padding:0.1px 5px 5px 5px;
+      font-family:verdana,sans-serif;
+      font-size:1em;
+  }
+
+   .aclass 
+{
+    font-size:1.1em;
+    color:#FFFFFF;
+    border-color:#ffffff;
+    border-width:1px;
+    border-style:outset;
+    width:150;
+    height:28px;
+    padding:2px 2px 1px 22px;
+    
+}
+#hova {font-size: 16px;}
+#hova tr:hover{color: blue;}
+.#navigation{
+            font-size: 100%; width: 50%;
+            }
+#navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 1em;  margin-left: -40px
+            }
+#navigation li { display: inline; list-style-type:none;}
+#navigation a:link, #navigation a:visited{
+            padding: 0.3em 1.7em 0.4em 1.7em;
+            color: #FFFFFF;  width:150;
+            background:#1E90FF;
+            text-decoration: none;
+            font-weight: bolder;
+            border-top: 1px solid #717171;
+            border-left: 0px solid #FFFFFF;
+            border-bottom: 1px solid #717171;
+            border-right: 0px solid #717171; margin-left: -20px;
+            }
+#navigation a:hover { 
+           color: #000058;
+            background-image: url(images/ho1.gif);
+            border-top: 1px solid #717171;
+            font-weight: bolder;
+            border-left: 0px solid #FFFFFF;
+            border-bottom: 1px solid #717171;
+            border-right: 0px solid #717171;
+            } 
+.subbtn
+{
+    font-family:verdana,arial,geneva;
+    background:#ffffff url("images/ho1.gif");
+    font-size:1.0em;
+    color:maroon;
+    border-color:#C0C0FF;
+    border-width:2px;
+    border-style:outset;
+    height:35px;
+    padding-left:2px;
+    padding-right:2px;
+   
+}
+.sach{ border-width: medium; border-color: black; border-bottom-color: black; height: 30px;}
+.search{
+    background-color: #8080FF; 
+    text-decoration: none;
+    height: 30px;
+}
+.subbtn:hover
+{   
+    border-style:ridge; 
+    cursor:pointer;
+    color:#003E00;
+}
+.datatable tr:hover{ background-color: #0000FF; color: #000000;}
+.datatable tr:hover,
+.datatable tr.hilite
+{
+background-color: #C0FFFF;
+color: #000000;
+}
+.datatable{ 
+    border: 1px; font-size: 13px;
+    border-collapse: collapse;
+}  
+.datatable td {
+    border: 1px solid #8080FF;
+    padding: 0.3em;
+} 
+.datatable th {
+    border: 1px solid #828282;
+    background-color: #BCBCBC;
+    font-weight: bold;
+    text-align: left; vertical-align: bottom;
+    padding-left: 0.3em;
+}  akabahile dorothyiliya@yahoo.com
